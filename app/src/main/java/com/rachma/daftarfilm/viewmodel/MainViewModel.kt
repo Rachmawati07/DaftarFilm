@@ -9,6 +9,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+// 4. Bagian ViewModel
 // Untuk mendeklarasikan class yang bernama MainViewModel dan juga mendeklarasikan variabel yang bersifat privat yaitu repository yang merupakan MainRepository
 class MainViewModel(private val repository: MainRepository) : ViewModel() {
 
@@ -19,7 +20,6 @@ class MainViewModel(private val repository: MainRepository) : ViewModel() {
 
     // Untuk mendeklarasikan fungsi yang bernama getAllMovies
     fun getAllMovies() {
-
         // Untuk mendeklarasikan variabel yang bernama response yang merupakan repository untuk mendapatkan semua data
         val response = repository.getAllMovies()
         // Untuk memanggil kembali respon dari MovieList

@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.rachma.daftarfilm.databinding.LayoutRvItemBinding
 
+// 3. Bagian Adapter
 // Untuk mendeklarasikan class yang bernama MainAdapter
 class MainAdapter : RecyclerView.Adapter<MainViewHolder>() {
 
@@ -28,7 +29,7 @@ class MainAdapter : RecyclerView.Adapter<MainViewHolder>() {
         // Untuk mengembalikan binding pada MainViewHolder
         return MainViewHolder(binding)
     }
-
+    // 7. Bagian untuk parsing data json dengan menggunakan library glide dan untuk meload gambar poster
     // Untuk mendeklarasikan fungsi onBindViewHolder dalam pembuatan activity ini
     override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
         // Untuk mendeklarasikan variabel yang bernama  moview

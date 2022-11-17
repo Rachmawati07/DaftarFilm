@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- 2. Bagian RecyclerView -->
     <!-- - Untuk mendeklarasikan recycler view untuk menampilkan data agar bisa digulir
          - Mempunyai id berupa recyclerview
          - Dan akan memanggil layout yang berupa layout_rv_item

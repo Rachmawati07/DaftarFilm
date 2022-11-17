@@ -2,6 +2,7 @@ package com.rachma.daftarfilm
 
 import com.google.gson.annotations.SerializedName
 
+// 5. Bagian class data
 // Untuk mendeklarasikan class yang bernama Movie
 data class Movie(
     // Untuk mendeklarasikan nama serial yang bernama Title sebagai variabel title dan mempunyai tipe data berupa string

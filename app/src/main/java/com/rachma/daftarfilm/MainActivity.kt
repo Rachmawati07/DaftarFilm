@@ -9,6 +9,7 @@ import com.rachma.daftarfilm.databinding.ActivityMainBinding
 import com.rachma.daftarfilm.repository.MainRepository
 import com.rachma.daftarfilm.viewmodel.MainViewModel
 
+// 1. Bagian untuk class activity untuk view ke AcitivityMain dengan binding
 // Untuk mendeklararasikan class yang bernama MainActivity
 class MainActivity : AppCompatActivity() {
 

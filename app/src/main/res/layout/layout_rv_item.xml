@@ -7,6 +7,7 @@
     android:elevation="8dp"
     app:cardCornerRadius="8dp">
 
+    <!-- 9. Bagian untuk menampilkan gambar -->
     <!-- - Untuk menampilkan gambar
          - Mempunyai id berupa moviePoster
          - Mempunyai tinggi sebesar 200dp

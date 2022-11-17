@@ -6,6 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
+// 6. Bagian untuk request ke web service dengan menggunakan library retrofit
 // Untuk mendeklarasikan interface yang bernama RetrofirService
 // Dan untuk mendapatkan data dari api?s=batman
 interface RetrofitService {
@@ -21,6 +22,7 @@ interface RetrofitService {
         // Untuk membuat instance RetrofitService menggunakan retrofit.
         fun getInstance(): RetrofitService {
 
+            // 8. Bagian untuk mengakses url gambar
             // Jika retrofitService sama dengan null, maka akan mendeklarasikan variabel retrofit dan menggunakan method Builder
             // Untuk mengakses url dan membuat GsonConverterFactory
             if (retrofitService == null) {
